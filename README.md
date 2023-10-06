@@ -16,10 +16,7 @@
 
 rel: 링크 태그에 달려있는 링크가 현재 페이지와 어떤 '관계'를 갖고 있는지에 대한 설명을 해주는 속성
 
-ex)   
-예를 들어 <link rel="stylesheet " hype="style.css"> 가 현재 html 페이지에 있다면
-
-hype="style.css"는 현재 html페이지에 사용할 스타일 시트인 css를 불러오는 링크라는 의미입니다 
+ex)예를 들어 <link rel="stylesheet " hype="style.css"> 가 현재 html 페이지에 있다면 hype="style.css"는 현재 html페이지에 사용할 스타일 시트인 css를 불러오는 링크라는 의미
 
 href: 속성은 링크된 외부 리소스(external resource)의 URL
 

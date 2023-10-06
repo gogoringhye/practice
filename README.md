@@ -7,5 +7,4 @@
 3. ! 후 tap키 치면 기본 배열 완성
 
 #basic1
-
-title 상단 제목, body 본문에 보이는 것
+- title 상단 제목, body 본문에 보이는 것

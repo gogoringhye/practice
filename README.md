@@ -12,8 +12,10 @@
 #basic2
 - 로고: link 사용
 
-- <link rel="stylesheet" href="">
+<link rel="stylesheet" href="">
 
+rel
+href
   
 <Link>태그'의 'rel'의 뜻은 관계의 줄임말입니다
 

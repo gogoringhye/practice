@@ -10,9 +10,7 @@
 - title 상단 제목, body 본문에 보이는 것
 
 #basic2
-- 로고: link 사용
-
-<link rel="stylesheet" href="">
+- 로고: link 사용 <link rel="stylesheet" href="">
 
 rel: 링크 태그에 달려있는 링크가 현재 페이지와 어떤 '관계'를 갖고 있는지에 대한 설명을 해주는 속성
 

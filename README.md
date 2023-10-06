@@ -18,3 +18,4 @@ ex)예를 들어 <link rel="stylesheet " hype="style.css"> 가 현재 html 페�
 
 href: 속성은 링크된 외부 리소스(external resource)의 URL
 
+1. link 파비콘 선택

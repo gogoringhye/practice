@@ -10,7 +10,7 @@
 - title 상단 제목, body 본문에 보이는 것
 
 #basic2
-- 로고: link 사용 <link rel="stylesheet" href="">
+- 로고: link 사용 <link rel="stylesheet" href="">,파비콘
 
 rel: 링크 태그에 달려있는 링크가 현재 페이지와 어떤 '관계'를 갖고 있는지에 대한 설명을 해주는 속성
 
@@ -18,4 +18,4 @@ ex)예를 들어 <link rel="stylesheet " hype="style.css"> 가 현재 html 페�
 
 href: 속성은 링크된 외부 리소스(external resource)의 URL
 
-1. link 파비콘 선택
+1. link:favicon

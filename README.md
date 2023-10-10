@@ -4,7 +4,9 @@
 
 ![image](https://github.com/gogoringhye/basic/assets/145514996/fa8eeeee-318f-45b6-803a-e7f221e63898)
 
-### https://thebook.io/080313/0009/
+### 초기 설정 참고하기
+
+https://thebook.io/080313/0009/
 
 
 🧟‍♀️

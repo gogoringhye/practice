@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>111</title>
+    <link rel="shortcut icon" href="images/favicon/favicon-96x96.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <div id="header" class="clearfix">
+            <h1>
+                <a href="http:#">
+                    <img src="images/logo.jpg" alt="롯데월드">
+                </a>
+            </h1>
+            <div class="nav">
+                <ul class="clearfix"> <!-- ul:순서가 필요없을 때 ol:순서가 필요할 때 -->
+                    <li>
+                        <a href="#">즐길거리</a>
+                        <ul class="submenu">
+                            <li><a href="#">subMenu-1</a></li>
+                            <li><a href="#">subMenu-2</a></li>
+                            <li><a href="#">subMenu-3</a></li>
+                            <li><a href="#">subMenu-4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">요금/우대혜택</a>
+                        <ul class="submenu">
+                            <li><a href="#">subMenu-1</a></li>
+                            <li><a href="#">subMenu-2</a></li>
+                            <li><a href="#">subMenu-3</a></li>
+                            <li><a href="#">subMenu-4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">참여프로그램</a>
+                        <ul class="submenu">
+                            <li><a href="#">subMenu-1</a></li>
+                            <li><a href="#">subMenu-2</a></li>
+                            <li><a href="#">subMenu-3</a></li>
+                            <li><a href="#">subMenu-4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이용가이드</a>
+                        <ul class="submenu">
+                            <li><a href="#">subMenu-1</a></li>
+                            <li><a href="#">subMenu-2</a></li>
+                            <li><a href="#">subMenu-3</a></li>
+                            <li><a href="#">subMenu-4</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">소통서비스</a>
+                        <ul class="submenu">
+                            <li><a href="#">subMenu-1</a></li>
+                            <li><a href="#">subMenu-2</a></li>
+                            <li><a href="#">subMenu-3</a></li>
+                            <li><a href="#">subMenu-4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- header -->
+        <div id="banner">
+<div class="slidelist">
+    <div class="slideimg">
+        <h2>이미지 1</h2>
+        <img src="images/banner01.jpg" alt="크리스마스">
+    </div><!-- slideimg -->
+    <div class="slideimg">
+        <h2>이미지 2</h2>
+        <img src="images/banner01.jpg" alt="크리스마스">
+    </div><!-- slideimg -->
+    <div class="slideimg">
+        <h2>이미지 3</h2>
+        <img src="images/banner01.jpg" alt="크리스마스">
+    </div><!-- slideimg -->
+</div><!-- slidelist -->
+        </div><!-- banner -->
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <!--   왼쪽 주소가 >< 사이에 들어가 있다는 것과 동일한 의미이므로 >< 사이에 아무것도 적으면 안됨 -->
+  <script>
+   /*  2줄 
+   주석 */
+
+    //한줄주석
+
+    console.log("방가방가") //에러를 찾거나 값이 바뀌는 것을 확인할 때 사용
+    //alert("반갑습니다."), 경고문을 띄워야할 때 사용
+
+     //menu
+     $('.nav>ul>li').mouseover(function(){
+                console.log($(this));
+                $(this).find('.submenu').stop().slideDown();
+            });
+
+            $('.nav>ul>li').mouseout(function(){
+                $(this).find('.submenu').stop().slideUp();
+
+            });
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
+<!-- //딱 내 자식을 부를땐 꺽새, 연결 연산은 .을 찍음, function(){} 여기까지 펑션의 세트, method는 무조건 괄호 열고 닫아야함 -->

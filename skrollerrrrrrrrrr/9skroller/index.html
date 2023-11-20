@@ -12,21 +12,39 @@
 <body>
     <div class="text">0</div>
 
-    <div class="fixed-bg" 
-        data-200="background-color:black;"
-        data-1001="width:100%; background-image: url('img/map6.png');" 
+    <div class="fixed-bg" data-200="background-color:black;"
+        data-1001="width:100%; background-image: url('img/map6.png');"
         data-2000="background-image: url('img/map2.png');">
 
-        <section id="slide01" class="slide" data-0="top:0%" data-500="opacity:0.8; top:-100%">
+        <section id="slide01" class="slide" data-0="top:0%" data-500="opacity:1; top:-100%">
             <div class="slide-content">
-                <h2>11</h2>
-                <p>11</p>
+                <div class="bub_ig">
+                    <img class="three" src="img/wv5.png"alt="신비의 마을
+                버블힐"><img class="one" src="img/wv6.png" alt="평화">
+                </div>
             </div>
         </section>
+
+        <!-- 스크롤이 200 이상으로 내려갔을 때 럭셔리 디지니 보이지 않게 하는 자바스크립트  -->
+        <script>
+            var oneElement = document.querySelector('.slide-content .bub_ig .one');
+    var threshold = 100; // 숨기기 시작할 스크롤 위치
+    
+    window.addEventListener('scroll', function() {
+        var scrollY = window.scrollY || window.pageYOffset;
+    
+        if (scrollY >= threshold) {
+            oneElement.style.display = 'none'; // 스크롤 위치가 threshold 이상이면 숨김
+        } else {
+            oneElement.style.display = 'block'; // 그 외에는 보임
+        }
+    });
+        </script>
 
         <section id="slide02" class="slide" data-1000="opacity:0; transform:translateY(100%)"
             data-1001="opacity:1; transform:translateY(0%)" data-2000="opacity:0;">
             <div class="slide-content">
+                <img src="img/wv1.png" alt="">
                 <h2>22</h2>
                 <p>22</p>
             </div>
@@ -47,12 +65,18 @@
             </div>
         </section>
 
-        <section id="slide05" class="slide"
-            data-2500="top:100%"
-            data-4000="top:-100%">
-            <img src="img/shuttle.png" alt="shuttle">
+        <section id="slide05" class="slide" data-2500="top:100%" data-4000="top:-100%">
+            <img src="img/water.png" alt="shuttle">
         </section>
 
+        <section id="slide06" class="slide" data-2500="top:-100%" data-4000="top:100%">
+            <img src="img/wv4.png" alt="">
+        </section>
+
+       <!--  <section id="slide07" class="slide" data-2500="left:-100%" data-4000="left:100%">
+            <img src="img/water.png" alt="shuttle">
+        </section> -->
+        
     </div>
 
     <script src="js/skrollr.min.js"></script>
@@ -68,6 +92,8 @@
             text.innerHTML = parseInt(wScroll);
         })
     </script>
+
+   
 </body>
 
 </html>

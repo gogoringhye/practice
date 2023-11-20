@@ -1,48 +1,32 @@
 @charset "UTF-8";
+
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
-.text{position: fixed; left: 30px; top: 10px; color: #fff; z-index: 500;}
+.text{
+    position: fixed; left: 30px;
+    top: 10px;  color: #fff; 
+    z-index: 500;
+}
 
-.fixed-bg{position: fixed; left: 0; top: 0; width: 100%; height: 100%;}
+.fixed-bg{ position: fixed;
+left: 0; top: 0; width: 100%; height: 100%;
+}
 
-.slide{position: fixed;top: 0; left: 0; width: 100%; height: 100%; padding: 50px;}/* top과 left 기준으로 설정, 이 값을 주게되면서 slide도 화면에 붙어있게됨 */
-
-.slide-content{position: relative; width: 60%; margin: 0 auto; font-size: 25px;}
+.slide{position: fixed;
+top: 0; left: 0; 
+width: 100%; height: 100%;
+padding: 50px;
+}
+.slide-content{
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+}
 
 .slide h2{margin-bottom: 30px;}
 
-#slide03{background-image: url(img/crazy_map.jpg);}
-
-#slide04{background: url(img/stars.gif);color: #fff;}
-
-
-
-/*//HTML 구조:
-여러 섹션이 있으며 각 섹션은 slide 클래스를 가지고 있음
-섹션 간 전환에 사용되는 배경이 되는 고정된(fixed) 요소(div.fixed-bg)가 있음
-섹션 내 텍스트 및 이미지 등의 콘텐츠가 있음
-
-//CSS 스타일링:
-기본적인 CSS 스타일이 적용되어 있음. 
-특히 .fixed-bg 클래스는 고정된 배경 요소로 사용되며, 
-.slide 클래스는 각 섹션의 스타일을 정의함
-
-//Skrollr 라이브러리:
-skrollr.min.js 파일을 스크립트로 포함하여 Skrollr 라이브러리를 초기화
-스크롤에 반응하여 요소들에 애니메이션을 부여하는 기능을 제공
-
-//자바스크립트 코드:
-스크롤 이벤트에 대한 리스너를 추가하여 스크롤 위치에 따라 텍스트를 업데이트함
-Skrollr 라이브러리를 초기화하여 스크롤에 따라 각 섹션의 배경 색상이나 요소의 위치 등을 조정
-
-//CSS 파일 (style.css) 내용:
-전반적인 페이지의 스타일링이 이루어져 있음
-.text 클래스는 화면 상단에 고정된 위치에 현재 스크롤 위치를 표시하는 텍스트를 표시
-.fixed-bg 클래스는 각 섹션의 배경 요소를 고정된 위치에 표시합니다.
-각 섹션(.slide)의 스타일 및 내용이 정의되어 있음.
-
-//이미지 및 기타 자원*/
-
-
-
-
+#slide01{background-image: url(img/map1.png);}
+#slide02{background-image: url(img/map7.png);}
+#slide03{}
+#slide04{background-image: url();}

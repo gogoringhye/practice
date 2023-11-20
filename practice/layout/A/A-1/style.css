@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* #wrap */
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+#header {
+    width: 100%;
+    background-color: #efefef;
+}
+
+#header .logo {
+    float: left;
+    width: 300px;
+    height: 100px;
+    background-color: #efefef;
+
+}
+
+#header .nav {
+    float: left;
+    width: 900px;
+    height: 100px;
+    background-color: #e3e3e3;
+
+}
+
+
+/* slider */
+#slider {
+    width: 100%;
+    height: 300px;
+    background-color: #d9d9d9;
+}
+
+/* contents */
+#contents {
+    width: 100%;
+    background-color: #d9d9d9;
+}
+
+#contents .cont1 {
+    float: left;
+    width: 33.3333%;
+    height: 200px;
+    background-color: #d1d1d1;
+}
+
+#contents .cont2 {
+    float: left;
+    width: 33.3333%;
+    height: 200px;
+    background-color: #c7c7c7;
+}
+
+#contents .cont3 {
+    float: left;
+    width: 33.3333%;
+    height: 200px;
+    background-color: #bcbcbc;
+}
+
+/* footer */
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #d1d1d1;
+}
+
+#footer .footer1 {
+    float: left;
+    width: 300px;
+    height: 100px;
+    background-color: #b1b1b1;
+}
+
+#footer .footer2 {
+    float: left;
+    width: 600px;
+    height: 100px;
+    background-color: #a3a3a3;
+}
+
+#footer .footer3 {
+    float: left;
+    width: 300px;
+    height: 100px;
+    background-color: #9d9d9d;
+}
+
+/* 큰 영역 잡을 땐 넓이는 동일하되 높이만 차이가 있으므로 부모의 넓이를 따라가도록 자식들에겐 넓이의 100%를 줌 */
+
+/* 자식 아닌게 아니라 ID는 유일해서 굳이 부모까지 부르지 않은 것 */

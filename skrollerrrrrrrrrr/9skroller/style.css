@@ -49,11 +49,18 @@
 }
 
 .slide-content .bub_ig .one {
-    max-width: 50%; 
+    max-width: 25%; /* 이미지의 최대 너비를 25%로 설정 */
     position: fixed;
     bottom: 0;
     right: 0;
 }
+
+/* 스크롤 이벤트가 발생했을 때 투명도를 1로 변경 및 이미지 크기를 50%로 변경 */
+body.scrolled .slide-content .bub_ig .one {
+    opacity: 1;
+    max-width: 50%;
+}
+
 
 .slide h2 {
     margin-bottom: 30px;

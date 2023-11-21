@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skroller</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/fav_bgg.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="text">0</div>
+
+    <section id="slide99" class="slide" data-500="opacity:0;
+    width:100%; background: url('img/map8.png');no-repeat" data-501="opacity:1;" data-500="opacity:1; top:-100%">
+        <div class="slide-content">
+            <div class="">
+                <img class="" src="img/map8.png" alt="바다">
+                <img class="" src="img/wv2.png" alt="보석">
+            </div>
+        </div>
+    </section>
+
+    <div class="fixed-bg" data-500="background-color:black;"
+        data-1001="width:100%; background-image: url('img/map6.png');"
+        data-2000="background-image: url('img/map2.png');">
+
+        <section id="slide01" class="slide" data-0="top:0%" data-200="right:-100%" data-500="opacity:1; top:-100%">
+            <div class="slide-content">
+                <div class="bub_ig">
+                    <img class="three" src="img/wv5.png" alt="트리오">
+                    <img class="one" src="img/wv6.png" alt="럭셔리 디지니">
+                </div>
+            </div>
+        </section>
+
+
+
+        
+
+        <section id="water" class="slide" data-1600="left:-100%"  data-2400="left:100%">
+            <img src="img/water.png" alt="물풍선">
+        </section>
+
+        <section id="happy" class="zz" data-333=opacity:0; data-280=opacity:0; data-700="opacity:0.8; transform:translateY(0%)" data-1000="opacity:1;"data-1100="opacity:0;" >
+            <img src="img/wv1.png" alt="피크닉">
+        </section>
+
+
+        <!-- 스크롤이 200 이상으로 내려갔을 때 럭셔리 디지니 보이지 않게 하는 자바스크립트  -->
+        <script>
+            var oneElement = document.querySelector('.slide-content .bub_ig .one');
+            var threshold = 100; // 숨기기 시작할 스크롤 위치
+
+            window.addEventListener('scroll', function () {
+                var scrollY = window.scrollY || window.pageYOffset;
+
+                if (scrollY >= threshold) {
+                    oneElement.style.display = 'none'; // 스크롤 위치가 threshold 이상이면 숨김
+                } else {
+                    oneElement.style.display = 'block'; // 그 외에는 보임
+                }
+            });
+        </script>
+
+        <section id="slide02" class="slide" data-1000="opacity:0; transform:translateY(100%)"
+            data-1001="opacity:1; transform:translateY(0%)" data-2000="opacity:0;">
+            <div class="slide-content">
+                <img src="" alt="배찌">
+                <h2>22</h2>
+                <p>22</p>
+            </div>
+        </section>
+
+        <section id="slide03" class="slide" data-1000="opacity:0; top:-100%"
+            data-1800="opacity:1; background:url(img/wtb.png)no-repeat" data-2000="opacity:1; top:0"
+            data-3000="opacity:0">
+            <div class="slide-content">
+                <h2>33</h2>
+                <p>33</p>
+            </div>
+        </section>
+
+        <section id="slide04" class="slide" data-2000="opacity:0" data-3000="opacity:1">
+            <div class="slide-content" data-2000="top:200px" data-3000="top:0">
+                <h2>44</h2>
+                <p>44</p>
+            </div>
+        </section>
+
+
+
+        <section id="slide05" class="slide" data-2500="top:100%" data-4000="top:-100%">
+            <img src="img/cha_3.png" alt="배찌">
+        </section>
+
+        <section id="slide06" class="slide" data-2500="top:-100%" data-4000="top:100%">
+            <img src="img/wv4.png" alt="해적">
+        </section>
+
+
+
+    </div>
+
+    <script src="js/skrollr.min.js"></script>
+    <script>
+        var s = skrollr.init();
+
+        let text = document.querySelector('.text');
+
+        window.addEventListener('scroll', function () {
+            let wScroll = window.pageYOffset;
+            console.log(wScroll)
+
+            text.innerHTML = parseInt(wScroll);
+        })
+    </script>
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.text {
+    position: fixed;
+    left: 30px;
+    top: 10px;
+    color: #fff;
+    z-index: 1;
+}
+
+/* ----------------------------bnb_vill---------------------------- */
+.bnb_vi11 {}
+
+.bnb_vi11 .ent1 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map6.png);
+    background-size: cover;
+}
+
+.bnb_vi22 {}
+
+.bnb_vi22 .ent2 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map6.png);
+    background-size: cover;
+}
+
+.bnb_vi33 {}
+
+.bnb_vi33 .ent3 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map6.png);
+    background-size: cover;
+}
+
+.bnb_vi44 {}
+
+.bnb_vi44 .ent4 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map6.png);
+    background-size: cover;
+}
+
+.bnb_vi55 {}
+
+.bnb_vi55 .ent5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map7.png);
+    background-size: cover;
+}
+
+
+/* ----------------------------bnb_camp---------------------------- */
+.crazy {}
+
+.crazy_camp1 .peace {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+.crazy_camp2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.crazy_camp2 .peace2 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+.crazy_camp3 {}
+
+.crazy_camp3 .peace3 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+.crazy_camp4 {}
+
+.crazy_camp4 .peace4 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+.crazy_camp5 {}
+
+.crazy_camp5 .peace5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+.crazy_camp6 {}
+
+.crazy_camp6 .peace6 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map2.png);
+    background-size: cover;
+}
+
+/* ----------------------------desert---------------------------- */
+
+.sd_desert {}
+
+.sd_desert .sand1 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+.sd_desert2 {}
+
+.sd_desert2 .sand2 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+.sd_desert3 {}
+
+.sd_desert3 .sand3 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+.sd_desert4 {}
+
+.sd_desert4 .sand4 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+.sd_desert5 {}
+
+.sd_desert5 .sand5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+.sd_desert6 {}
+
+.sd_desert6 .sand6 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map4.png);
+    background-size: cover;
+}
+
+/* ----------------------------bnb_aqua---------------------------- */
+
+.bnb_auqa1 {}
+
+.bnb_auqa1 .sea1 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+
+.bnb_aqua2 {}
+
+.bnb_aqua2 .sea2 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+.bnb_aqua3 {}
+
+.bnb_aqua3 .sea3 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+.bnb_aqua4 {}
+
+.bnb_aqua4 .sea4 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+.bnb_aqua5 {}
+
+.bnb_aqua5 .sea5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+.bnb_aqua {}
+
+.bnb_aqua5 .sea5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+.bnb_aqua {}
+
+.bnb_aqua6 .sea6 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map8.png);
+    background-size: cover;
+}
+
+/* ----------------------------cz_coin---------------------------- */
+
+.cz_kfc1 {}
+
+.cz_kfc1 .brn1 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map3.png);
+    background-size: cover;
+}
+
+
+.cz_kfc2 {}
+
+.cz_kfc2 .brn2 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map3.png);
+    background-size: cover;
+}
+
+.cz_kfc3 {}
+
+.cz_kfc3 .brn3 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map3.png);
+    background-size: cover;
+}
+
+.cz_kfc4 {}
+
+.cz_kfc4 .brn4 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map3.png);
+    background-size: cover;
+}
+
+.cz_kfc5 {}
+
+.cz_kfc5 .brn5 {
+    width: 100%;
+    height: 100vh;
+    background: url(img/map3.png);
+    background-size: cover;
+}

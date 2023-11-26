@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* --------------------------------header------------------------------  */
+.m_bg {
+    position: relative;
+    background-image: url(img/bg-main.jpg);
+    width: 100%;
+    background-size: cover;
+    /* 화면 깨져서 추가 수정 */
+    min-height: 100vh;
+    /* 뷰포트 높이의 최소한의 높이로 설정 */
+}
+
+.header {}
+
+.logo {
+    position: absolute;
+    width: 50%;
+    left: 30px;
+    top: 20px;
+}
+
+
+.menu {}
+
+.menu ul {
+    list-style-type: none;
+    padding-top: 35px;
+    padding-left: 200px;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 36px;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+
+.sld {
+    border-bottom: solid 1px #ccc;
+    margin-top: 48px;
+}
+
+
+.search i {
+    position: relative;
+    color: #fff;
+    right: -198px;
+    top: 11px;
+}
+
+/* --------------------------------left------------------------------  */
+.snkrs {}
+
+.snkrs .sho1 {}
+
+.snkrs .sho1 .Phrases .int1 {}
+
+.snkrs .sho1 .Phrases .int1 h1 {
+    font-size: 140px;
+    color: #fff;
+    margin: 54px 84px;
+    line-height: 144px;
+    letter-spacing: 12px;
+}
+
+.snkrs .sho1 .Phrases .int1 h2 {
+    position: relative;
+    color: #fff;
+    letter-spacing: 18px;
+    top: -60px;
+    left: 527px;
+}
+
+.snkrs .sho1 .Phrases .int2 .nk {
+    color: #fff;
+    font-size: 80px;
+    letter-spacing: -5px;
+    font-style: italic;
+}
+
+
+.snkrs .sho1 .Phrases .int2 .aj5rt {
+    position: relative;
+    color: #fff;
+    letter-spacing: 1px;
+    top: -10px;
+    left: 10px;
+    font-size: 22px;
+}
+
+
+/* --------------------------------right------------------------------  */
+
+.snkrs .sho1 .Phrases .Phrases2 .in3 {
+    padding-top: 3px;
+}
+
+.snkrs .sho1 .Phrases .Phrases2 .in3 h3 {
+    color: #fff;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.snkrs .sho1 .Phrases .Phrases2 .clr {
+    list-style-type: none;
+}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .clr li {}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .clr li i {
+    color: #fff;
+    font-size: 7px;
+}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .click .rig {
+    list-style-type: none;
+    position: relative;
+    top: -40px;
+    left: 20px;
+}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .click .rig li {}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .click .rig li i {
+    color: gold;
+}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .click .rig li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.snkrs .sho1 .Phrases .Phrases2 .star {
+    position: relative;
+    color: gold;
+    font-size: 22px;
+    letter-spacing: 4px;
+    top: -218px;
+    left: 181px;
+}
+
+
+/* ------------------------------- 배치 --------------------------------  */
+.sho1 .Phrases {}
+
+.sho1 .Phrases .Phrases2 {
+    position: relative;
+    float: right;
+    top: -239px;
+    right: 45px;
+}
+
+/* ------------------------------- 추가 --------------------------------  */
+
+.sho1 .Phrases .Phrases2 .btn {}
+
+.sho1 .Phrases .Phrases2 .btn .ylw {
+    margin: 17px;
+    float: left;
+    border: solid 2px gold;
+    background-color: gold;
+    width: 60px;
+    height: 30px;
+}
+
+.sho1 .Phrases .Phrases2 .btn .ylw p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+.sho1 .Phrases .Phrases2 .btn .ylw i {
+    position: relative;
+    font-size: 16px;
+    color: #000;
+    top: -22px;
+    left: 42px;
+    font-weight: bold;
+}
+
+.sho1 .Phrases .Phrases2 .btn .wht {
+    margin: 4px;
+    float: left;
+    border: solid 2px white;
+    width: 174px;
+    height: 55px;
+}
+
+.sho1 .Phrases .Phrases2 .btn .wht p {
+    position: relative;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+    top: 12px;
+    left: 30px;
+}
+
+.sho1 .Phrases .Phrases2 .btn h4 {
+    float: left;
+    margin: 17px;
+    color: #fff;
+    font-size: 24px;
+}

@@ -1,0 +1,8 @@
+canvas {
+  display: block; width: 100%; height: 100vh;
+  cursor: grab;
+}
+#el_toggle {
+  position: fixed; top: 0; left: 0;
+  padding: 1ch;
+}

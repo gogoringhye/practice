@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+body{height: 500vh;background-color: #faad80;}
+
+.world{position: fixed;left: 0;top: 0;width: 100%;height: 100vh;perspective: 300px;/* 원근감 */}
+
+.world .stage{position: absolute;left: 0;top: 0;width: 100vw;height: 100vh;transform-style: preserve-3d;/* 중간단계에 굳이 안줘도 됨 */}
+.world .stage .house{width: 100vw;height: 100vh;transform-style: preserve-3d;transform: translateZ(-2000vw);/* 면들을 억지로 z값 줘서 벽 사이 안으로 밀어넣은 상태임, 스크립트 값 주고나서 빈틈이 보여서 덜 밀으라고 10정도의 값을 빼줘서 490이 됨 */}
+.world .stage .house .wall{position: absolute;left: 0;top: 0;width: 100vw;height: 100vh;background-color: rgba(225, 225, 225, 0.8);}
+.world .stage .house .wall-left{width: 4000vw;background-color: #f8f8f8;transform: rotateY(90deg) translateZ(-2000vw);}
+.world .stage .house .wall-right{width: 4000vw;background-color: #f8f8f8;transform: rotateY(90deg) translateZ(-1900vw);}
+.world .stage .house .wall-front{}
+.world .stage .house .wall-front-a{transform: translateZ(1700vw);}
+.world .stage .house .wall-front-b{transform: translateZ(1300vw);}
+.world .stage .house .wall-front-c{transform: translateZ(900vw);}
+.world .stage .house .wall-front-d{transform: translateZ(500vw);}
+.world .stage .house .wall-front-e{transform: translateZ(200vw);}
+.world .stage .house .wall-front-f{transform: translateZ(0vw);}
+.world .stage .house .wall-front-g{transform: translateZ(-300vw);}
+.world .stage .house .wall-front-h{transform: translateZ(-600vw);}
+.world .stage .house .wall-front-i{transform: translateZ(-800vw);}
+.world .stage .house .wall-front-j{transform: translateZ(-1300vw);}
+.world .stage .house .wall-front-k{transform: translateZ(-1600vw);}
+.world .stage .house .wall-front-l{transform: translateZ(-2000vw);}

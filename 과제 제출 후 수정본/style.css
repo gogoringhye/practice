@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+body{height: 1500vh;background: hsla(210, 9%, 9%, 0.431);}
+
+.world{position: fixed;left: 0;top: 0;width: 100%;height: 100vh;perspective: 1500px;/* 원근감 */}
+
+.world .stage{position: absolute;left: 0;top: 0;width: 100vw;height: 100vh;transform-style: preserve-3d;/* 중간단계에 굳이 안줘도 됨 */}
+.world .stage .house{width: 100vw;height: 100vh;transform-style: preserve-3d;transform: translateZ(-1490vw);/* 면들을 억지로 z값 줘서 벽 사이 안으로 밀어넣은 상태임, 스크립트 값 주고나서 빈틈이 보여서 덜 밀으라고 10정도의 값을 빼줘서 490이 됨 */}
+.world .stage .house .wall{position: absolute;left: 0;top: 0;width: 100vw;height: 100vh;background-color: rgba(225, 225, 225, 0.8);}
+.world .stage .house .wall-left{width: 3000vw;background-color: #f8f8f8;transform: rotateY(90deg) translateZ(-1500vw);/* background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-civilization-ride-subway-illustration-background-sceneillustration-image_86626.jpg);background-size: contain; */}
+.world .stage .house .wall-right{width: 3000vw;background-color: #f8f8f8;transform: rotateY(90deg) translateZ(-1400vw);/* background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-civilization-ride-subway-illustration-background-sceneillustration-image_86626.jpg);background-size: contain; */}
+
+
+.world .stage .house .wall-front{}
+.world .stage .house .add-img{/* 제이씨유카 */transform: translateZ(1360vw);background: none;}
+.world .stage .house .add-img2{/* 파이렛 로고 */transform: translateZ(1300vw);background: none;}
+.world .stage .house .wall-front-a{/* 앨범 */transform: translateZ(1200vw);}
+.world .stage .house .wall-front-b{transform: translateZ(1000vw);}
+.world .stage .house .wall-front-c{transform: translateZ(800vw);}
+.world .stage .house .wall-front-d{transform: translateZ(600vw);}
+.world .stage .house .wall-front-e{transform: translateZ(400vw);}
+.world .stage .house .wall-front-f{transform: translateZ(200vw);}
+.world .stage .house .wall-front-g{transform: translateZ(0vw);}
+.world .stage .house .wall-front-h{transform: translateZ(-200vw);}
+.world .stage .house .wall-front-i{transform: translateZ(-400vw);}
+.world .stage .house .wall-front-j{/* 라나 앨범 커버 */transform: translateZ(-800vw);}
+.world .stage .house .add-Lana{/* 라나1 */transform: translateZ(-640vw);background: none;}
+.world .stage .house .add-Lana2{/* 라나2 */transform: translateZ(-700vw);background: none;}
+.world .stage .house .add-Lana3{/* 라나3 */transform: translateZ(-600vw);background: none;}
+.world .stage .house .add-Lana4{/* 라나4 */transform: translateZ(-640vw);background: none;}
+.world .stage .house .add-Lana5{/* 라나5 */transform: translateZ(-799vw);background: none;}
+.world .stage .house .add-Lana6{/* 라나6 */transform: translateZ(-550vw);background: none;}
+
+
+
+
+
+
+
+.world .stage .house .wall-front-k{transform: translateZ(-1000vw);}
+.world .stage .house .add-mina{/* 미러 */transform: translateZ(-1300vw);background: none;}
+.world .stage .house .add-mina2{/* 꽃받침 */transform: translateZ(-1240vw);background: none;}
+.world .stage .house .add-mina3{/* 하이 */transform: translateZ(-1160vw);background: none;}
+.world .stage .house .add-mina4{/* 네이키드 */transform: translateZ(-1490vw);background: none;}
+.world .stage .house .add-mina5{/* 프린세스 */transform: translateZ(-1490vw);background: none;}
+.world .stage .house .add-mina6{/* 미인 */transform: translateZ(-1490vw);background: none;}
+.world .stage .house .add-mina7{/* Biscuit */transform: translateZ(-1490vw);background: none;}
+.world .stage .house .wall-front-l{transform: translateZ(-1500vw);}
+
+
+/* 벽 */
+.world .stage .house .wall-content img{width: 100vw;height: 100vh;object-fit: cover;opacity: 0.8;}
+
+/* 1면 */
+.world .stage .house .add-img .jw {/* 제이씨유카 */
+    width: 22vw;
+    height: 30vw;
+    transform: translate(3vw,56vw);
+}
+
+.world .stage .house .add-img2 .jw2 {/* 파이렛 로고 */
+    width: 30vw;
+    height: 10vw;
+    transform: translate(33vw,22vw);
+}
+
+
+
+/* 2면 */
+
+.world .stage .house .wall-front .sl {
+    width: 32vw;
+    height: 30vw;
+    transform: translate(6vw,-43vw);}
+
+.world .stage .house .wall-front .sl2 {
+        width: 51vw;
+        height: 51vw;
+        transform: translate(13vw,-27vw);}
+
+/* 3면 */
+
+.world .stage .house .wall-front .dp {
+    width: 45vw;
+    height: 41vw;
+    transform: translate(-4vw,-44vw);
+}
+
+.world .stage .house .wall-front .dp2 {
+        width: 51vw;
+        height: 51vw;
+        transform: translate(13vw,-27vw);}
+
+/* 4면 */
+
+.world .stage .house .wall-front .dp {
+    width: 45vw;
+    height: 41vw;
+    transform: translate(-4vw,-44vw);
+}
+
+.world .stage .house .wall-front .dp2 {
+        width: 51vw;
+        height: 51vw;
+        transform: translate(13vw,-27vw);}
+
+
+/* 10면 */
+
+.world .stage .house .add-Lana .la {/* 라나1 */
+    width: 50vw;
+    height: 29vw;
+    transform: translate(-8vw,33vw);
+}
+
+.world .stage .house .add-Lana2 .la2 {/*라나2 */ 
+    width: 22vw;
+    height: 31vw;
+    transform: translate(52vw,21vw);}
+
+
+.world .stage .house .add-Lana3 .la3 {/*라나3 */ 
+    width: 22vw;
+    height: 31vw;
+    transform: translate(21vw,23vw);
+}
+
+
+.world .stage .house .add-Lana4 .la4 {/* 라나4 */
+        width: 27vw;
+        height: 23vw;
+        transform: translate(66vw,37vw);
+    }
+
+.world .stage .house .add-Lana5 .la5 {/*라나5 */ 
+    width: 58vw;
+    height: 31vw;
+    transform: translate(-13vw,35vw);}
+
+
+.world .stage .house .add-Lana6 .la6 {/*라나6 */ 
+        width: 50vw;
+        height: 32vw;
+        transform: translate(24vw,42vw);
+    }
+
+
+
+
+
+/* 12면 찬미나 */
+      
+.world .stage .house .add-mina .mn {/* 미러 */
+            width: 21vw;
+            height: 21vw;
+            transform: translate(15vw,32vw);
+        }
+
+.world .stage .house .add-mina2 .mn2 {/*꽃받침 */ 
+        width: 9vw;
+        height: 13vw;
+        transform: translate(92vw,49vw);
+    }
+
+    
+    .world .stage .house .add-mina3 .mn3 {/*하이*/
+        width: 50vw;
+        height: 30vw;
+        transform: translate(23vw,28vw);
+    }
+
+    .world .stage .house .add-mina4 .mn4 {/* 네이키드 */
+    width: 56vw;
+    height: 50vw;
+    transform: translate(36vw,28vw);
+}
+.world .stage .house .add-mina5 .mn5 {/* 프린세스 */
+    width: 56vw;
+    height: 50vw;
+    transform: translate(36vw,28vw);
+}
+
+.world .stage .house .add-mina6 .mn6 {/* 미인 */
+    width: 56vw;
+    height: 50vw;
+    transform: translate(36vw,28vw);
+}
+.world .stage .house .add-mina7 .mn7 {/* Biscuit */
+    width: 56vw;
+    height: 50vw;
+    transform: translate(36vw,28vw);
+}
+
+
+/*fnmnl*/
